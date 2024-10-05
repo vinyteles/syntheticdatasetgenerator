@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "syntheticdatasetgenerator"
+version = "0.1.0"
+description = ""
+authors = ["vinyteles <viniteles@discente.ufg.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+regex = "^2024.9.11"
+langchain = "^0.3.2"
+langchain-ollama = "^0.2.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
